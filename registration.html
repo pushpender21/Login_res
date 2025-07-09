@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Registration Form</h2>
+        <form action="#">
+          <div class="input-box">
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <input type="email" id="emails" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <input type="password" id="pass" placeholder="Create password" required>
+          </div>
+          <div class="input-box">
+            <input type="password" id="re-pass" placeholder="Confirm password" required>
+          </div>
+          <div class="input-box">
+            <input type="text" id="mobilenumber" placeholder="Enter your Mobile Number" required>
+          </div>
+          <div class="input-box">
+            <input type="date" id="dob" placeholder="Enter your Date of Birth" required>
+          </div>
+
+          <div class="policy">
+            <input type="checkbox" checked="checked" name="remember">
+            <h3>I accept all terms & condition</h3>
+          </div>
+          
+          <div class="input-box button">
+            <!-- <input type="Submit" value="Register Now"> -->
+              <button class="Login" type="button" onclick="insertfunctions()">Register Now</button>
+
+              <button type="button" class="clearalldata" onclick="forRemoving()">Remove</button>
+
+          </div>
+
+          <div class="text">
+            <h3>Already have an account? <a href="#">Login now</a></h3>
+          </div>
+
+        </form>
+
+      </div> 
+
+      
+      <script src="main.js"></script>
+</body>
+</html>

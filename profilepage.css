@@ -1,0 +1,94 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;&display=swap'); */
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: coral; */
+    background-image: url(/images/back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profilecard{
+    width: 400px;
+    height: 450px;
+    /* background-color: whitesmoke; */
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    /* align-items: center; */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/165/357/desktop-wallpaper-best-backgrounds-for-website-high-definition-website.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: 20px;
+}
+.profilecard .user{
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: -78px;
+    position: absolute;
+}
+.profilecard .round{
+    width: 225px;
+    height: 232px;
+    margin-top: -10px;
+    position: absolute;
+    margin-left: -115px 
+}
+.box{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 54px;
+    height: 160px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column
+}
+.box h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.box h2{
+    font-size: 16px;
+    margin-left: 6px;
+}
+.box h3{
+    font-size: 15px;
+    margin-left: 26px;
+    margin-top: 6px;
+}
+.box h4{
+    font-size: 30px;
+    margin-left: 26px;
+    margin-top: 6px;
+    height: 35px;
+    width: 220px;
+}
+
+.box .clearall-btn{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background: darkturquoise;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 195px 0px 0px 8px; 
+}
+
+.box .clearall-btn:hover{
+    background: lightcoral;
+}
